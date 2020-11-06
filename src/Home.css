@@ -1,0 +1,21 @@
+.home {
+  /*very important*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 15000px;
+}
+.banner_img {
+  width: 100%;
+  z-index: -1; /*because we want the banner image to be begind and somethinng placed above it*/
+  margin-bottom: -140px; /*cards to align over it*/
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.product__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}

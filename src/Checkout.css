@@ -1,0 +1,23 @@
+.checkout__image {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.checkout {
+  display: flex;
+  padding: 20px;
+  height: max-content;
+  background-color: white;
+}
+.shopping_title {
+  padding: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.checkout > h2 {
+  margin-bottom: 20px;
+}
+.checkout > h4 {
+  font-weight: 300;
+  margin-bottom: 10px !important;
+}
